@@ -1,0 +1,57 @@
+Harjinder Khatkar
+A00746060
+September 23, 2012
+
+Comp8505
+Assignment1
+
+This is the Pseudo code for Assignment1
+
+main(){
+
+ take in variables, ports, hosts, server or client
+
+ if client
+ {
+	 assign values to variables.
+ }
+ else{
+	 assign values to variables.
+ }
+
+ run forgepacket function.
+}
+
+forgepacket(){
+
+ create structs, assign variables.
+ 
+ if client{
+	
+	create random value for encoding
+	fill in IP header.
+	create checksum
+	fill in TCP header
+	
+	read file
+	send character over raw socket
+ }
+ else{
+	receive data from client
+	decode using the ip identificaiton field
+	write to file
+ }
+}
+
+in_cksum{
+
+	create checksum.
+}
+
+host_convert{
+ 	convert host
+}
+
+usage{
+	printf's that show how to use.
+}
